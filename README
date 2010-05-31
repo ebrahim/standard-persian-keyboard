@@ -7,24 +7,28 @@
 This is the standard (ISIRI 2901:1994 [1]) Persian keyboard layout driver for
 MS Windows.
 
-It is created using MS Keyboard Layout Creator 1.4 [3]. But MSKLC.exe needs to
-be patched to allow ZWNJ for Shift+Space. Don't worry, because I've already
-done the hard part for you! You'll only need to apply MSKLC.exe.bsdiff to
-MSKLC.exe using bsdiff [2] binary diff/patch tool.
+If you're here just to install the driver, you only need to remove your current
+Persian/Farsi layout, and then download and run standard-persian-keyboard.exe.
 
-The layout itself is defined in Persian.klc which can be loaded an compiled in
+The driver is created using MS Keyboard Layout Creator 1.4 [2]. But MSKLC.exe
+needs to be patched to allow ZWNJ for Shift+Space. Don't worry, because I've
+already done the hard part for you using .NET Reflector [3]! You'll only need
+to apply MSKLC.exe.bsdiff to MSKLC.exe using bsdiff [4] binary diff/patch tool.
+
+The layout itself is defined in Persian.klc which can be loaded and compiled in
 the patched MS Keyboard Layout Creator 1.4.
 
-You can easily create an SFX installer using 7-zip [4]. If you're using the
+You can easily create an SFX installer using 7-zip [5]. If you're using the
 command line interface of 7-zip, SFX config file would be similar to
 standard-persian-keyboard.7z-sfx.conf.
 
 -------------------------------------------------------------------------------
 
 [1] http://www.isiri.org/std/2901.htm
-[2] http://www.daemonology.net/bsdiff/
-[3] http://go.microsoft.com/fwlink/?LinkId=82315&clcid=0x409
-[4] http://7-zip.org/
+[2] http://go.microsoft.com/fwlink/?LinkId=82315&clcid=0x409
+[3] http://www.red-gate.com/products/reflector
+[4] http://www.daemonology.net/bsdiff/
+[5] http://7-zip.org/
 
 -------------------------------------------------------------------------------
 
