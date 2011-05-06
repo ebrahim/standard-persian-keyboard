@@ -1,11 +1,10 @@
 -------------------------------------------------------------------------------
-
                              In the name of Allah
-
 -------------------------------------------------------------------------------
 
 This is the standard (ISIRI 2901:1994 [1]) Persian keyboard layout driver for
-MS Windows.
+MS Windows. You may want to read an introduction to the standard layout at
+http://www.teribon.ir/archives/26019.
 
 If you're here just to install the driver, you only need to remove your current
 Persian/Farsi layout, and then download and run standard-persian-keyboard.exe.
@@ -23,18 +22,14 @@ command line interface of 7-zip, SFX config file would be similar to
 standard-persian-keyboard.7z-sfx.conf.
 
 -------------------------------------------------------------------------------
-
 [1] http://www.isiri.org/std/2901.htm
 [2] http://go.microsoft.com/fwlink/?LinkId=82315&clcid=0x409
 [3] http://www.red-gate.com/products/reflector
 [4] http://www.daemonology.net/bsdiff/
 [5] http://7-zip.org/
-
 -------------------------------------------------------------------------------
-
-Project Home: http://bitbucket.org/ebrahim/standard-persian-keyboard
-By:           Mohammad Ebrahim Mohammadi Panah
+Project Home: http://code.ebrahim.ir/standard-persian-keyboard
+By:           Ebrahim Mohammadi
 E-mail:       ebrahim at mohammadi dot ir
-Author Home:  http://ebrahim.ir/
-
+Author Home:  http://code.ebrahim.ir/
 -------------------------------------------------------------------------------
